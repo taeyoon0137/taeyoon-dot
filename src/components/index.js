@@ -1,10 +1,17 @@
-function includeJS(jsFilePath) {
-  var js = document.createElement("script");
+window.onload = function(){
+  document.addEventListener('scroll', () => {
+    var isScrolled = !(window.scrollY == 0);
 
-  js.type = "text/javascript";
-  js.src = jsFilePath;
+    if (isScrolled) {
+      document.getElementById('wds-gb-header').classList.add('hd-bg-scroll')
+    } else {
+      document.getElementById('wds-gb-header').classList.remove('hd-bg-scroll')
+    }
+  });
 
-  document.body.appendChild(js);
+  document.getElementById('hd-right-mobile').addEventListener('click', () => {
+    document.getElementById('wds-gb-header').classList.toggle('hd-menu-closed'),
+    document.getElementById('wds-gb-header').classList.toggle('hd-menu-opened'),
+    document.getElementsByTagName('body')[0].classList.toggle('no-scroll')
+  });
 }
-
-includeJS("https://taeyoon0137.github.io/alphaplus_blog/src/components/header/header.js");
