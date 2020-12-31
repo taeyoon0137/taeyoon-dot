@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+/* NOTION ALIGN */
+@media screen and (min-width: 901px) {
+  .notion-app {
+    padding-top: var(--hh-dsk);
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .notion-app {
+    padding-top: var(--hh-tbl);
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .notion-app {
+    padding-top: var(--hh-mbl);
+  }
+}
+
+/* NOTION BORDER */
+.notion-image-block {
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.notion-callout-block {
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 640px) {
+  .notion-image-block {
+    border-radius: 16px;
+  }
+
+  .notion-callout-block {
+    border-radius: 16px;
+  }
+}

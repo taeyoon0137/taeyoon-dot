@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+:root {
+  /* COLOR PALETTE */
+  --black: #000000;
+  --white: #ffffff;
+  
+  --coolGray100: #121619;
+  --coolGray90: #21272a;
+  --coolGray80: #343a3f;
+  --coolGray70: #4d5358;
+  --coolGray60: #697077;
+  --coolGray50: #878d96;
+  --coolGray40: #a2a9b0;
+  --coolGray30: #c1c7cd;
+  --coolGray20: #dde1e6;
+  --coolGray10: #f2f4f8;
+  --coolGray5: #f6f7fa;
+
+  --blue60: #0068ff;
+}

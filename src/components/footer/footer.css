@@ -1,0 +1,174 @@
+@charset "utf-8";
+
+/* FOOTER BACKGROUND */
+#wds-gb-footer {
+  display: flex;
+  width: 100%;
+  background-color: var(--coolGray80);
+}
+
+#ft-container {
+  display: flex;
+  box-sizing: border-box;
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 901px) {
+  #ft-container {
+    max-width: var(--hw-dsk);
+    padding-top: var(--ft-dsk);
+    padding-left: var(--gm-dsk);
+    padding-right: var(--gm-dsk);
+    padding-bottom: var(--fb-dsk);
+    justify-content: space-start;
+    align-items: flex-start;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #ft-container {
+    max-width: var(--hw-tbl);
+    padding-top: var(--ft-tbl);
+    padding-left: var(--gm-tbl);
+    padding-right: var(--gm-tbl);
+    padding-bottom: var(--fb-tbl);
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  #ft-container {
+    max-width: var(--hw-mbl);
+    padding-top: var(--ft-mbl);
+    padding-left: var(--gm-mbl);
+    padding-right: var(--gm-mbl);
+    padding-bottom: var(--fb-mbl);
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
+
+/* FOOTER TOP ITEM */
+  #ft-top {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 640px) {
+  #ft-top {
+    display: none;
+  }
+}
+
+#ft-top ul {
+  margin: 0;
+  padding: 0;
+}
+
+.ft-nav-item {
+  width: 160px;
+  padding-bottom: 8px;
+  list-style-type: none;
+}
+
+.ft-nav-item a {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1.88;
+  letter-spacing: 0.05px;
+  color: var(--coolGray40);
+}
+
+.ft-nav-item a:hover {
+  color: var(--coolGray50);
+}
+
+/* FOOTER BOTTOM ITEM */
+#ft-bottom {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+#ft-bottom-logo {
+  display: flex;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 901px) {
+  #ft-bottom-logo {
+    width: 90px;
+    height: 20px;
+    background-image: url('https://whatssub.co/images/brand/img_logotype_default_gray.png');
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #ft-bottom-logo {
+    width: 90px;
+    height: 20px;
+    background-image: url('https://whatssub.co/images/brand/img_logotype_default_gray.png');
+  }
+}
+
+@media screen and (max-width: 640px) {
+  #ft-bottom-logo {
+    width: 32px;
+    height: 32px;
+    background-image: url('https://whatssub.co/images/brand/img_symbol_default_gray.png');
+  }
+}
+
+#ft-bottom-title {
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  clip-path: inset(1px 1px 99.9% 99.9%);
+  overflow: hidden;
+  height: 1px;
+  width: 1px;
+  padding: 0;
+  border: 0;
+  top: 50%;
+}
+
+#ft-bottom-info {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.67;
+  letter-spacing: 0.03px;
+  color: var(--coolGray40);
+}
+
+#ft-bottom-copy {
+  margin-top: 24px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.67;
+  letter-spacing: 0.03px;
+  color: var(--coolGray40);
+}
+
+@media screen and (min-width: 901px) {
+  #ft-bottom-info {
+    margin-top: 16px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #ft-bottom-info {
+    margin-top: 16px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  #ft-bottom-info {
+    margin-top: 8px;
+  }
+}
