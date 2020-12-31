@@ -71,21 +71,21 @@
 
 @media screen and (min-width: 901px) {
   #hd-left {
-    width: 120px;
+    width: 104px;
     background-image: url('https://taeyoon0137.github.io/alphaplus_blog/src/img/img_logo_alphaplus_white.png');
   }
 }
 
 @media screen and (max-width: 900px) {
   #hd-left {
-    width: 120px;
+    width: 104px;
     background-image: url('https://taeyoon0137.github.io/alphaplus_blog/src/img/img_logo_alphaplus_white.png');
   }
 }
 
 @media screen and (max-width: 640px) {
   #hd-left {
-    width: 32px;
+    width: 96px;
     background-image: url('https://taeyoon0137.github.io/alphaplus_blog/src/img/img_logo_alphaplus_white.png');
   }
 }
