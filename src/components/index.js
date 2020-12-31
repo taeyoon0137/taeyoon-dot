@@ -7,4 +7,4 @@ function includeJS(jsFilePath) {
   document.body.appendChild(js);
 }
 
-includeJS("./src/components/header/header.js");
+includeJS("http://src.alphaplus.work/src/components/header/header.js");

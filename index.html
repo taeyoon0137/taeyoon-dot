@@ -5,16 +5,80 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 
-  <link rel="stylesheet" href="./src/styles/index.css">
-  <link rel="stylesheet" href="./src/components/index.css">
-  <script src="/src/scripts/includeHTML.js"></script>
+  <link rel="stylesheet" href="http://src.alphaplus.work/src/styles/index.css">
+  <link rel="stylesheet" href="http://src.alphaplus.work/src/components/index.css">
 </head>
 <body>
-  <header id="wds-gb-header" class="hd-bg-top hd-menu-closed" include-html="./src/components/header/header.html"></header>
-  <footer id="wds-gb-footer" include-html="./src/components/footer/footer.html"></footer>
-  <script>
-    includeHTML();
-  </script>
-  <script src="src/components/index.js"></script>
+  <header id="wds-gb-header" class="hd-bg-top hd-menu-closed">
+    <div id="hd-container">
+      <!-- LEFT ITEM -->
+      <a id="hd-left" href="https://whatssub.co/">
+        <h1 id="hd-left-title">
+          왓섭
+        </h1>
+      </a>
+    
+      <!-- RIGHT ITEM -->
+      <div id="hd-right">
+        <!-- DESKTOP -->
+        <nav id="hd-right-tablet">
+          <li class="hd-nav-item"><a href="https://abr.ge/jqluil">앱 설치하기</a></li>
+          <li class="hd-nav-item"><a href="https://recruit.whatssub.co/">채용</a></li>
+          <li class="hd-nav-item"><a href="https://cert.whatssub.co/">공용인증센터</a></li>
+        </nav>
+        
+        <!-- MOBILE -->
+        <i id="hd-right-mobile"></i>
+      </div>
+    </div>
+    <div id="wds-mobile-nav">
+      <nav id="hd-nav-menu">
+        <ul>
+          <li class="hd-nav-item"><a href="https://abr.ge/jqluil">앱 설치하기</a></li>
+          <li class="hd-nav-item"><a href="https://recruit.whatssub.co/">채용</a></li>
+          <li class="hd-nav-item"><a href="https://cert.whatssub.co/">공용인증센터</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <footer id="wds-gb-footer">
+    <div id="ft-container">
+      <nav id="ft-top">
+        <ul>
+          <li class="ft-nav-item"><a href="https://whatssub.co/">서비스 소개</a></li>
+          <li class="ft-nav-item"><a href="https://cert.whatssub.co/term">이용 약관</a></li>
+          <li class="ft-nav-item"><a href="https://cert.whatssub.co/privacy-policy">개인정보 처리방침</a></li>
+        </ul>
+        <ul>
+          <li class="ft-nav-item"><a href="https://recruit.whatssub.co/">채용</a></li>
+          <li class="ft-nav-item"><a href="https://cert.whatssub.co/">공용인증센터</a></li>
+        </ul>
+        <ul>
+          <li class="ft-nav-item"><a href="https://web.facebook.com/whatssub.official/">페이스북</a></li>
+          <li class="ft-nav-item"><a href="https://www.instagram.com/whatssub.insta/">인스타그램</a></li>
+          <li class="ft-nav-item"><a href="https://blog.naver.com/whatssubofficial/">네이버 블로그</a></li>
+          <li class="ft-nav-item"><a href="https://brunch.co.kr/@toon-whatssub/">브런치</a></li>
+        </ul>
+      </nav>
+      <div id="ft-bottom">
+        <a id="ft-bottom-logo" href="https://whatssub.co/">
+          <h1 id="ft-bottom-title">
+            왓섭
+          </h1>
+        </a>
+        <span id="ft-bottom-info">
+          주식회사 왓섭, 대표 김준태<br/>
+          587-88-01692, 2020-서울마포-0887<br/>
+          서울시 마포구 마포대로 122 프론트원, 11층 왓섭<br/>
+          서울시 마포구 마포대로 114 IBK창공, 4층 왓섭
+        </span>
+        <span id="ft-bottom-copy">
+          Copyright © 2019. Whatssub co., Ltd. All rights Reserved.
+        </span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="http://src.alphaplus.work/src/components/index.js"></script>
 </body>
 </html>
