@@ -72,21 +72,21 @@
 @media screen and (min-width: 901px) {
   #hd-left {
     width: 120px;
-    background-image: url('https://whatssub.co/images/brand/img_logotype_default.png');
+    background-image: url('https://taeyoon0137.github.io/alphaplus_blog/tree/main/src/img/img_logo_alphaplus_white.png');
   }
 }
 
 @media screen and (max-width: 900px) {
   #hd-left {
     width: 120px;
-    background-image: url('https://whatssub.co/images/brand/img_logotype_default.png');
+    background-image: url('https://taeyoon0137.github.io/alphaplus_blog/tree/main/src/img/img_logo_alphaplus_white.png');
   }
 }
 
 @media screen and (max-width: 640px) {
   #hd-left {
     width: 32px;
-    background-image: url('https://whatssub.co/images/brand/img_symbol_default_filled.png');
+    background-image: url('https://taeyoon0137.github.io/alphaplus_blog/tree/main/src/img/img_logo_alphaplus_white.png');
   }
 }
 
