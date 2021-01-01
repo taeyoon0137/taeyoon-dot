@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+.css-1bhes7s {
+  display: none !important;
+}
+
+.notion-collection_view-block div {
+  border-top: 0px !important;
+}
+
+.notion-collection-item div {
+  box-shadow: #0000 0px 0px 0px 0px !important;
+  border-radius: 20px !important;
+}
+
+.notion-collection-item div div {
+  box-shadow: #0000 0px 0px 0px 0px !important;
+  border-radius: 0px !important;
+}
+
+.notion-collection-item div div:nth-child(2) {
+  padding: 12px 16px !important;
+}
+
+.notion-collection-item div div div div:nth-child(2) {
+  padding: 0px !important;
+}	
