@@ -4,18 +4,21 @@
 @media screen and (min-width: 901px) {
   .notion-app {
     padding-top: var(--hh-dsk);
+    min-height: calc(100vh - var(--hh-dsk)) !important;
   }
 }
 
 @media screen and (max-width: 900px) {
   .notion-app {
     padding-top: var(--hh-tbl);
+    min-height: calc(100vh - var(--hh-tbl)) !important;
   }
 }
 
 @media screen and (max-width: 640px) {
   .notion-app {
     padding-top: var(--hh-mbl);
+    min-height: calc(100vh - var(--hh-mbl)) !important;
   }
 }
 
@@ -37,23 +40,5 @@
 
   .notion-callout-block {
     border-radius: 16px;
-  }
-}
-
-@media screen and (min-width: 901px) {
-  .__next {
-    min-height: calc(100vh - var(--hh-dsk)) !important;
-  }
-}
-
-@media screen and (max-width: 900px) {
-  .__next {
-    min-height: calc(100vh - var(--hh-tbl)) !important;
-  }
-}
-
-@media screen and (max-width: 640px) {
-  .__next {
-    min-height: calc(100vh - var(--hh-mbl)) !important;
   }
 }
