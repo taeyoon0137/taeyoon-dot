@@ -3,6 +3,7 @@
 /* FOOTER BACKGROUND */
 #aps-gb-footer {
   display: flex;
+  align-self: flex-end;
   width: 100%;
   background-color: var(--coolGray80);
 }

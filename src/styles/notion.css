@@ -41,19 +41,19 @@
 }
 
 @media screen and (min-width: 901px) {
-  .notion-app-inner {
+  .__next {
     min-height: calc(100vh - var(--hh-dsk)) !important;
   }
 }
 
 @media screen and (max-width: 900px) {
-  .notion-app-inner {
+  .__next {
     min-height: calc(100vh - var(--hh-tbl)) !important;
   }
 }
 
 @media screen and (max-width: 640px) {
-  .notion-app-inner {
+  .__next {
     min-height: calc(100vh - var(--hh-mbl)) !important;
   }
 }
