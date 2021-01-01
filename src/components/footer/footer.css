@@ -33,6 +33,7 @@
     /* height: var(--hh-tbl); */
     max-width: var(--hw-tbl);
     padding: 16px var(--gm-tbl);
+    padding-bottom: max(16px, max(env(safe-area-inset-bottom), constant(safe-area-inset-bottom)));
   }
 }
 
@@ -41,6 +42,7 @@
     /* height: var(--hh-mbl); */
     max-width: var(--hw-mbl);
     padding: 16px var(--gm-mbl);
+    padding-bottom: max(16px, max(env(safe-area-inset-bottom), constant(safe-area-inset-bottom)));
   }
 }
 
