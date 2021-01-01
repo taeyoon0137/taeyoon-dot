@@ -5,8 +5,8 @@
   z-index: 999;
   left: 16px;
   bottom: 16px;
-  bottom: calc(16px + constant(safe-area-inset-bottom));
-  bottom: calc(16px + env(safe-area-inset-bottom));
+  bottom: constant(safe-area-inset-bottom);
+  bottom: env(safe-area-inset-bottom);
   padding: 8px 14px 8px 12px;
   border-radius: 16px;
   font-size: 17px;

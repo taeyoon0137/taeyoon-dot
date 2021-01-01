@@ -23,7 +23,8 @@
   #aps-ft-container {
     /* height: var(--hh-dsk); */
     max-width: var(--hw-dsk);
-    padding: 16px var(--gm-dsk) calc(16px + constant(safe-area-inset-bottom) + env(safe-area-inset-bottom));
+    padding: 16px var(--gm-dsk);
+    padding-bottom: constant(safe-area-inset-bottom);
   }
 }
 
@@ -31,7 +32,7 @@
   #aps-ft-container {
     /* height: var(--hh-tbl); */
     max-width: var(--hw-tbl);
-    padding: 16px var(--gm-tbl) calc(16px + constant(safe-area-inset-bottom) + env(safe-area-inset-bottom));
+    padding: 16px var(--gm-tbl);
   }
 }
 
@@ -39,7 +40,7 @@
   #aps-ft-container {
     /* height: var(--hh-mbl); */
     max-width: var(--hw-mbl);
-    padding: 16px var(--gm-mbl) calc(16px + constant(safe-area-inset-bottom) + env(safe-area-inset-bottom));
+    padding: 16px var(--gm-mbl);
   }
 }
 
