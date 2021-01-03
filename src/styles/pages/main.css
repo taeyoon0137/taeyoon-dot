@@ -36,8 +36,13 @@ h1 {
 
 .notion-collection-item > div > div > div:nth-child(3) > div:nth-child(2) > div {
   height: unset !important;
-  padding: 3px 8px !important;
   margin-top: 2px !important;
+}
+
+
+.notion-collection-item > div > div > div:nth-child(3) > div:nth-child(2) > div > div {
+  height: unset !important;
+  padding: 3px 8px !important;
   border-radius: 20px !important;
 }
 
