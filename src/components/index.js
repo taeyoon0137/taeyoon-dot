@@ -9,7 +9,7 @@ window.onload = function(){
     }
   });
 
-  document.getElementsByClassName('hd-right-mobile').addEventListener('click', () => {
+  document.getElementById('hd-right-mobile').addEventListener('click', () => {
     document.getElementById('wds-gb-header').classList.toggle('hd-menu-closed'),
     document.getElementById('wds-gb-header').classList.toggle('hd-menu-opened'),
     document.getElementsByTagName('body')[0].classList.toggle('no-scroll')
