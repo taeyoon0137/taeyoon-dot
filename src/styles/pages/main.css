@@ -8,44 +8,41 @@ h1 {
   display: none !important;
 }
 
-.css-teimp2 {
+.notion-page-content > div:nth-child(1) {
   padding: 16px 20px;
   border-radius: 20px;
 }
 
-.css-1bhes7s {
-  display: none !important;
-}
 
-.notion-collection_view-block {
+.notion-page-content > .notion-collection_view-block {
   border-top: 0px !important;
 }
 
-.notion-collection-item > div {
+.notion-page-content > .notion-collection_view-block > div:nth-child(1) {
+  display: none !important;
+}
+
+.notion-collection_view-block > div:nth-child(2) > .notion-gallery-view > div > div > div > a {
   box-shadow: #0000 0px 0px 0px 0px !important;
   border-radius: 20px !important;
 }
 
-.notion-collection-item > div > div > div:nth-child(2) {
+.notion-collection_view-block > div:nth-child(2) > .notion-gallery-view > div > div > div > a > div > div:nth-child(2) {
   padding: 12px 16px 2px !important;
 }
 
-.notion-collection-item > div > div > div:nth-child(3) {
+.notion-collection_view-block > div:nth-child(2) > .notion-gallery-view > div > div > div > a > div > div:nth-child(3) {
   padding: 0px 16px 18px 36px !important;
 }
 
-.notion-collection-item > div > div > div:nth-child(3) > div:nth-child(2) > div {
+.notion-collection_view-block > div:nth-child(2) > .notion-gallery-view > div > div > div > a > div > div:nth-child(3) > div:nth-child(2) > div {
   height: unset !important;
   margin-top: 2px !important;
 }
 
 
-.notion-collection-item > div > div > div:nth-child(3) > div:nth-child(2) > div > div {
+.notion-collection_view-block > div:nth-child(2) > .notion-gallery-view > div > div > div > a > div > div:nth-child(3) > div:nth-child(2) > div > div {
   height: unset !important;
   padding: 3px 8px !important;
   border-radius: 20px !important;
-}
-
-.css-1ma58qu {
-  margin: 0px !important;
 }
